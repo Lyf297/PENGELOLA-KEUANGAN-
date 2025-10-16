@@ -1,7 +1,6 @@
 # 💰 Pengelola Keuangan — LYF
 
 > Aplikasi web sederhana untuk mencatat dan mengelola keuangan pribadi   
-> Didesain dengan tampilan elegan berwarna **biru** dan **hitam**.
 
 ---
 
