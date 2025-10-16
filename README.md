@@ -44,4 +44,4 @@ Kamu bisa jalankan proyek ini di komputer lokal kamu juga:
 
 1. Clone repository:
    ```bash
-   git clone https://github.com/Lyf297/PENGELOLA-KEUANGAN-.git
+   git clone https://github.com/Lyf297/pengelola-keuangan.git
