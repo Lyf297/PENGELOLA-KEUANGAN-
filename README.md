@@ -13,7 +13,7 @@
 - Membuat rencana finansial sederhana langsung dari browser  
 
 Website ini bisa kamu coba langsung di sini 👉  
-🌐 [https://lyf297.github.io/PENGELOLA-KEUANGAN-/](https://lyf297.github.io/pengelola-keuangan/)
+🌐 [https://lyf297.github.io/pengelola-keuangan/](https://lyf297.github.io/pengelola-keuangan/)
 
 ---
 
