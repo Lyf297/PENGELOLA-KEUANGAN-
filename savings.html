@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tabungan - Pengelola Keuangan</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🏦 Daftar Tabungan</h1>
+      <button id="backDashboard">Kembali</button>
+    </div>
+
+    <form id="savingsForm">
+      <input type="text" id="savingsName" placeholder="Nama tujuan tabungan..." required />
+      <input type="number" id="savingsGoal" placeholder="Target (opsional)" />
+      <button type="submit">Tambah Tujuan</button>
+    </form>
+
+    <ul id="savingsList" class="list"></ul>
+  </div>
+
+  <!-- Modal Custom -->
+  <div id="modalContainer" class="modal-container" style="display:none;">
+    <div class="modal-box">
+      <h3 id="modalTitle">Pesan</h3>
+      <input id="modalInput" type="text" style="display:none;" />
+      <div class="modal-buttons">
+        <button id="modalCancel">Batal</button>
+        <button id="modalOk">OK</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="savings.js"></script>
+</body>
+</html>

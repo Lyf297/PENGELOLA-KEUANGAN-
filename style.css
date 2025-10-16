@@ -1,0 +1,332 @@
+/* ======== RESET ======== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+}
+
+/* ======== MODE WARNA ======== */
+:root {
+  --bg-color: #f5f6fa;
+  --text-color: #222;
+  --card-color: #fff;
+  --primary: #007bff;
+  --income-color: #28a745;
+  --expense-color: #dc3545;
+}
+
+/* ======== BODY & CONTAINER ======== */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  background: var(--card-color);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+/* ======== HEADER DASHBOARD ======== */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.header h1 {
+  font-size: 1.3rem;
+}
+
+#logoutBtn {
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+#logoutBtn:hover {
+  opacity: 0.9;
+}
+
+/* ======== BALANCE ======== */
+.balance {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.balance h2 {
+  font-size: 1.8rem;
+  margin-top: 8px;
+}
+
+/* ======== SUMMARY ======== */
+.summary {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.summary div {
+  background: var(--bg-color);
+  flex: 1;
+  margin: 0 5px;
+  padding: 12px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.money.plus {
+  color: var(--income-color);
+}
+
+.money.minus {
+  color: var(--expense-color);
+}
+
+/* ======== FORM ======== */
+form {
+  margin-top: 10px;
+}
+
+form input, form select, form button {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border: none;
+  border-radius: 8px;
+}
+
+form input, form select {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+form button {
+  background: var(--primary);
+  color: white;
+  cursor: pointer;
+}
+
+form button:hover {
+  opacity: 0.9;
+}
+
+/* ======== LIST ======== */
+.list {
+  list-style: none;
+  margin-top: 15px;
+}
+
+.list li {
+  background: var(--bg-color);
+  color: var(--text-color);
+  padding: 10px;
+  border-left: 5px solid;
+  margin: 8px 0;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list li.plus {
+  border-color: var(--income-color);
+}
+
+.list li.minus {
+  border-color: var(--expense-color);
+}
+
+.list button {
+  background: transparent;
+  border: none;
+  color: var(--expense-color);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.center {
+  text-align: center;
+}
+
+/* ======== RESPONSIVE ======== */
+@media (max-width: 480px) {
+  .container {
+    padding: 20px;
+  }
+
+  .header h1 {
+    font-size: 1.1rem;
+  }
+
+  .balance h2 {
+    font-size: 1.4rem;
+  }
+
+  #logoutBtn {
+    padding: 6px 10px;
+    font-size: 0.9rem;
+  }
+}
+
+/* SAVINGS */
+.list li div {
+  display: flex;
+  gap: 5px;
+  margin-top: 8px;
+}
+
+.list li button {
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.list li button:hover {
+  opacity: 0.9;
+}
+
+/* ======== TATA LETAK TABUNGAN ======== */
+.list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 10px;
+}
+
+.saving-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.saving-info strong {
+  font-size: 1rem;
+}
+
+.saving-info p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.saving-actions {
+  display: flex;
+  gap: 6px;
+}
+
+.saving-actions button {
+  background: var(--bg-color);
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  padding: 5px 7px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.saving-actions button:hover {
+  background: var(--primary);
+  color: white;
+  transform: scale(1.05);
+}
+
+/* ======== TOMBOL KEMBALI ======== */
+#backDashboard {
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+#backDashboard:hover {
+  opacity: 0.9;
+  transform: scale(1.03);
+}
+
+/* ======== MODAL / POPUP ======== */
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.modal-box {
+  background: var(--card-color);
+  padding: 20px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 350px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  text-align: center;
+  animation: popIn 0.3s ease;
+}
+
+@keyframes popIn {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.modal-box h3 {
+  margin-bottom: 15px;
+}
+
+.modal-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.modal-buttons button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#modalOk {
+  background: var(--primary);
+  color: white;
+}
+
+#modalCancel {
+  background: #ccc;
+  color: #222;
+}
+
