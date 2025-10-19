@@ -1,22 +1,22 @@
-# 💰 Pengelola Keuangan 
+#  Pengelola Keuangan 
 
 > Aplikasi web sederhana untuk mencatat dan mengelola keuangan pribadi   
 
 ---
 
-## 🧾 Tentang Proyek
+##  Tentang Proyek
 
 **Pengelola Keuangan** adalah aplikasi berbasis web yang membantu pengguna:
 - Mengatur **pemasukan**, **pengeluaran**, dan **tabungan** secara praktis  
 - Melihat saldo total dan histori transaksi  
 - Membuat rencana finansial sederhana langsung dari browser  
 
-Website ini bisa kamu coba langsung di sini 👉  
+Website ini bisa kamu coba langsung di sini   
 🌐 [https://lyf297.github.io/pengelola-keuangan/](https://lyf297.github.io/pengelola-keuangan/)
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+##  Teknologi yang Digunakan
 
 | Bagian | Teknologi / Tools |
 |--------|--------------------|
@@ -26,22 +26,14 @@ Website ini bisa kamu coba langsung di sini 👉
 
 ---
 
-## 🎯 Fitur Utama
+##  Fitur Utama
 
-- 🔐 **Login / Daftar Akun** — sistem autentikasi sederhana  
-- 🏠 **Dashboard Utama** — ringkasan saldo, transaksi, dan akses ke fitur lain  
-- 💵 **Pemasukan & Pengeluaran** — catat arus uang dengan mudah  
-- 💰 **Fitur Tabungan** — buat tabungan baru, ubah nama tujuannya, dan pantau perkembangannya  
-- ✏️ **Edit / Hapus Transaksi** — kontrol penuh atas datamu  
-- 📱 **Tampilan Responsif** — tampil rapi di HP maupun desktop  
-- 🚪 **Logout** — keluar dari akun dengan satu klik  
+-  **Login / Daftar Akun** — sistem autentikasi sederhana  
+-  **Dashboard Utama** — ringkasan saldo, transaksi, dan akses ke fitur lain  
+-  **Pemasukan & Pengeluaran** — catat arus uang dengan mudah  
+-  **Fitur Tabungan** — buat tabungan baru, ubah nama tujuannya, dan pantau perkembangannya  
+-  **Edit / Hapus Transaksi** — kontrol penuh atas datamu  
+-  **Tampilan Responsif** — tampil rapi di HP maupun desktop  
+-  **Logout** — keluar dari akun dengan satu klik  
 
 ---
-
-## 🚀 Cara Menjalankan (Local)
-
-Kamu bisa jalankan proyek ini di komputer lokal kamu juga:
-
-1. Clone repository:
-   ```bash
-   git clone https://github.com/Lyf297/pengelola-keuangan.git
