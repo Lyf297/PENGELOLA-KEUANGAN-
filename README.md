@@ -1,4 +1,4 @@
-# 💰 Pengelola Keuangan — LYF
+# 💰 Pengelola Keuangan 
 
 > Aplikasi web sederhana untuk mencatat dan mengelola keuangan pribadi   
 
